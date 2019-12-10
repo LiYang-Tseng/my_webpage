@@ -1,0 +1,134 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="UTF-8">
+        <title>My Web Page!</title>
+        <style>
+            h1 {
+                color: midnightblue;
+				text-align: center;
+            }
+			a:link, a:visited {
+			background-color: cornsilk;
+			color: black;
+			padding: 10px 10px;
+			text-align: center;
+			text-decoration: none;
+			display: inline-block;
+			}
+			a:hover, a:active {
+			background-color: orangered;
+			color: black;
+			padding: 10px 10px;
+			text-align: center;
+			text-decoration: underline;
+			display: inline-block;
+			}
+			#customers {
+			  font-family: "sans-serif;";
+			  border-collapse: collapse;
+			  width: 100%;
+			}
+			#customers td, #customers th {
+			  border: 1px solid black;
+			  padding: 8px;
+			}
+			#customers tr:nth-child(even){background-color: silver;}
+			#customers tr:hover {background-color: lightcyan;}
+			#customers th {
+			  padding-top: 12px;
+			  padding-bottom: 12px;
+			  text-align: center;
+			  background-color: darkslategray;
+			  color: white;
+			}
+			#top {
+				font-size: 40px;
+				color: dodgerblue;
+			}
+			#middle{
+				font-size: 24px;
+				color: navy;
+			}
+			#bottom{
+				font-size: 8px;
+				color: gray;
+			}
+			.icon1 {
+				font-weight: 400;
+				color:maroon;
+			}
+			.icon2 {
+				font-weight: 700;
+				color:red;
+			}
+        </style>
+    </head>
+    <body>
+        <a href="index.html" target="_self">←回上頁</a>
+		<div style="border:2px black solid;font-size:24px;">	
+			<h1>
+				<span style="font-family:Microsoft JhengHei;">
+					<p>
+					術語解釋
+					</p>
+				</span>
+			</h1>
+		</div>
+		<p></p>
+		<table id="customers">
+		  <tr>
+			<th>詞組</th>
+			<th>定義</th>
+		  </tr>
+		  <tr>
+			<td>TP</td>
+			<td><span class="icon1" style="font-family:fantasy;">[Tense Phrase]</span>通常置於主要句子開頭處，以時態為結構核心</td>
+		  </tr>
+		  <tr>
+			<td>DP</td>
+			<td><span class="icon1" style="font-family:fantasy;">[Determiner Phrase]</span>與名詞組成限定詞片語，ex:<span class="icon1">The</span> dog</td>
+		  </tr>
+		  <tr>
+			<td>NP</td>
+			<td><span class="icon1" style="font-family:fantasy;">[Noun Phrase]</span>就是最普通的名詞片語</td>
+		  </tr>
+		  <tr>
+			<td>VP</td>
+			<td><span class="icon1" style="font-family:fantasy;">[Verb Phrase]</span>就動詞片語，動詞的時態(TENSE)會從TP降下來結合</td>
+		  </tr>
+		  <tr>
+			<td>AP</td>
+			<td><span class="icon1" style="font-family:fantasy;">[Adjective Phrase]</span>就形容詞片語，BJ4</td>
+		  </tr>
+		  <tr>
+			<td>AdvP</td>
+			<td><span class="icon1" style="font-family:fantasy;">[Adverb Phrase]</span>副詞片語...</td>
+		  </tr>
+		  <tr>
+			<td>NegP</td>
+			<td><span class="icon1" style="font-family:fantasy;">[Negative Phrase]</span>否定詞not會特別成立一個投射(projection)</td>
+		  </tr>
+		  <tr>
+			<td>AspP</td>
+			<td><span class="icon1" style="font-family:fantasy;">[Aspectual Phrase]</span>體助詞片語，像是have和be動詞這類</td>
+		  </tr>
+		  <tr>
+			<td>PP</td>
+			<td><span class="icon1" style="font-family:fantasy;">[Preposition Phrase]</span>介係詞片語，很簡單的，像是:a book <span class="icon1">of</span> mine</td>
+		  </tr>
+		  <tr>
+			<td>CP</td>
+			<td><span class="icon1" style="font-family:fantasy;">[Complement Phrase]</span>一般像關係子句就屬於主句子的CP，只要大句包小句，就有CP</td>
+		  </tr>
+		</table>
+		<p></p>
+		<div id="middle">
+			恭喜<span class="icon2">老爺</span>賀喜<span class="icon2">夫人</span>，長知識啦!
+		</div>
+		<p></p>
+		<div id="bottom">
+			形式功能一家親啦!
+		</div>
+    </body>
+</html>
